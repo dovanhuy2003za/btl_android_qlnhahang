@@ -10,7 +10,7 @@ Firebase (Realtime Database, Authentication, Storage, etc.)
 Download and install Android Studio IDE.<br>
 Open the Firebase Console at https://console.firebase.google.com/, register for an account and add a new project (my project is called `albert`)<br>
 Configure our Android Studio project using Firebase SDK, Firebase Authentication, and Realtime Database. Then, connect the Android app to the Firebase project.<br>
-Login credentials for Admin: `albertsebastian75@gmail.com`, password:`Albert@123` (The published Android app requires Firebase authentication in order to log in).
+
 
 # My-Restaurant
 My-Restaurant is a mobile application developed to automate every aspect of a restaurant, including parking and meal ordering. This application is offered to replace the issues that are active manually and make things simpler so that customers don’t have to wait a long time for the meal to be prepared and served. 	The client can reserve anything on the whole menu of the restaurant with this application. Stakeholders in the My-Restaurant application include managers, customers, and employees. The employees include chefs, supervisors, parking attendants, and waiters. The products are organized by categories to make it simple for customers to find what they need. Customers can order for the required products using the search box as well.<br>
@@ -32,10 +32,10 @@ The primary goal of putting in place is to encourage customers to purchase more 
 # About Me
 <img src="./screenshots/347393526_250171240894141_1652025665265698400_n.jpg" alt="drawing" width="200"/>
 
-Albert Sebastian<br>
-albertsebastian75@gmail.com<br>
-8590956627<br>
-Kerala, India
+Do van Huy<br>
+dovanhuy2003za@gmail.com<br>
+0379761945<br>
+Ha Noi, VietNam
 
 # Screenshots
 <table align="center">

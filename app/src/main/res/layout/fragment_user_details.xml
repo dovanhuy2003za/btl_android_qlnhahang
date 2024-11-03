@@ -13,7 +13,8 @@
         android:layout_width="wrap_content"
         android:layout_height="620dp"
         android:layout_marginTop="8dp"
-        app:layout_goneMarginEnd="100dp">
+        app:layout_goneMarginEnd="100dp"
+        tools:ignore="MissingConstraints">
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/viewOrders"

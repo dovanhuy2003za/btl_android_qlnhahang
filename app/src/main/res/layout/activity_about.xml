@@ -39,7 +39,7 @@
         android:layout_height="wrap_content"
         android:textColor="@color/blue"
         android:textStyle="italic"
-        android:text="Contact: +91 8590956627" />
+        android:text="Contact: 0379761945" />
 
     <TextView
         android:id="@+id/company_email"
@@ -48,7 +48,7 @@
         android:layout_height="wrap_content"
         android:textColor="@color/blue"
         android:textStyle="italic"
-        android:text="Email: albertsebastian75@gmail.com" />
+        android:text="Email: dovanhuy2003za@gmail.com" />
 
     <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
         android:id="@+id/swipeRefresh"

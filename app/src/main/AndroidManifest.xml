@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.albert">
+    package="com.example.dovanhuy">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name=".MyApplication"
+        android:name="com.example.dovanhuy.MyApplication"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -17,21 +17,21 @@
         android:theme="@style/Theme.Albert"
         tools:targetApi="31">
         <activity
-            android:name=".AboutActivity"
+            android:name="com.example.dovanhuy.AboutActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".AboutAdminActivity"
+            android:name="com.example.dovanhuy.AboutAdminActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".WaiterActivity"
+            android:name="com.example.dovanhuy.WaiterActivity"
             android:exported="true">
 
             <!-- <intent-filter> -->
@@ -40,21 +40,21 @@
             <!-- </intent-filter> -->
         </activity>
         <activity
-            android:name=".CustomerFragmentMyOrder"
+            android:name="com.example.dovanhuy.CustomerFragmentMyOrder"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".CustomerFragmentMyOrderCancelled"
+            android:name="com.example.dovanhuy.CustomerFragmentMyOrderCancelled"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".ParkActivity"
+            android:name="com.example.dovanhuy.ParkActivity"
             android:exported="true">
 
             <!-- <intent-filter> -->
@@ -63,73 +63,74 @@
             <!-- </intent-filter> -->
         </activity>
         <activity
-            android:name=".CustomerActivityViewParking"
+            android:name="com.example.dovanhuy.CustomerActivityViewParking"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".CustomerActivityKartTable"
+            android:name="com.example.dovanhuy.CustomerActivityKartTable"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".CustomerActivityKartBlock"
+            android:name="com.example.dovanhuy.CustomerActivityKartBlock"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".CustomerFragmentParkingAvailable"
+            android:name="com.example.dovanhuy.CustomerFragmentParkingAvailable"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".CustomerFragmentParkingAvailableListener"
+            android:name="com.example.dovanhuy.CustomerFragmentParkingAvailableListener"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".ui.viewusers.ParkingAvailable"
+            android:name="com.example.dovanhuy.ui.viewusers.ParkingAvailable"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".ui.viewusers.ParkingAvailableListener"
+            android:name="com.example.dovanhuy.ui.viewusers.ParkingAvailableListener"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".AdminActivity"
+            android:name="com.example.dovanhuy.AdminActivity"
             android:exported="true"
             android:label="@string/title_activity_admin"
             android:theme="@style/Theme.Albert.NoActionBar">
 
+
+
+        </activity>
+        <activity
+            android:name="com.example.dovanhuy.RegisterActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.dovanhuy.LoginActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
-        </activity>
-        <activity
-            android:name=".RegisterActivity"
-            android:exported="true" />
-        <activity
-            android:name=".LoginActivity"
-            android:exported="true">
             <!-- <intent-filter> -->
             <!-- <action android:name="android.intent.action.MAIN" /> -->
 
@@ -138,10 +139,10 @@
             <!-- </intent-filter> -->
         </activity>
         <activity
-            android:name=".CustomerFragmentProductCategoryListener"
+            android:name="com.example.dovanhuy.CustomerFragmentProductCategoryListener"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.dovanhuy.MainActivity"
             android:exported="true">
 
             <!-- <intent-filter> -->
